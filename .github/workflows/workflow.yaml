@@ -1,21 +1,21 @@
 name: workflow_01
 on:
   workflow_dispatch:
-     inputs:
-      workflow_02:
-        description: 'ًWorkflow 2 which will be triggered'
-        required: true
-        default: 'Terraform_CI'
+     #inputs:
+     # workflow_02:
+     #   description: 'ًWorkflow 2 which will be triggered'
+     #   required: true
+     #   default: 'Terraform_CI'
 
-      workflow2_github_account:
-        description: 'GitHub Account Owner'
-        required: true
-        default: 'phanee47'
+     # workflow2_github_account:
+     #   description: 'GitHub Account Owner'
+     #   required: true
+     #   default: 'phanee47'
 
-      workflow2_repo_github:
-        description: 'repo-name'
-        required: true
-        default: 'gcp-terraform-githubactions' 
+     # workflow2_repo_github:
+     #   description: 'repo-name'
+     #   required: true
+     #   default: 'gcp-terraform-githubactions' 
 
 jobs:
   build:
